@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.page-header {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.main-menu {
+flex-grow: 1;
+
+}
+.main-menu-list {
+    list-style-type: none;
+    justify-content: space-around;
+    display: flex;
+    padding: 0;
+
+}
+.main-menu-list a {
+    color: coral;
+    font-size: 30px;
+    transition: 0.4s;
+}
+.main-menu-list a:hover {
+color: lightblue;
+font-size: 40px;
+}
+.page-footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 35px 0;
+    background-color:lightgreen ;
+}
+.coyright {
+padding: 0;
+margin: 0;
+}
+.footer-social {
+padding: 0;
+margin: 0;
+display: flex;
+list-style: none;
+justify-content: center;
+}
+.hashtag {
+padding: 0;
+margin: 0;
+font-size: 21px;
+font-weight: 700;  
+}
+.social-button {
+    margin-left: 10px;
+    margin-right: 10px;
+}
